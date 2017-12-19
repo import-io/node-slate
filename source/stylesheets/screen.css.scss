@@ -55,9 +55,13 @@ html, body {
     $nav-subitem-bg;
 }
 
+.logo-image {
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
 .tocify-wrapper {
   transition: left 0.3s ease-in-out;
-
   overflow-y: auto;
   overflow-x: hidden;
   position: fixed;
