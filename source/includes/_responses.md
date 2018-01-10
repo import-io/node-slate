@@ -1,11 +1,10 @@
-# Errors
+# Response Codes
 
-<aside class="notice">This error section is stored in a separate file in `includes/_errors.md`. Slate allows you to optionally separate out your docs into many files...just save them to the `includes` folder and add them to the top of your `index.md`'s frontmatter. Files are included in the order listed.</aside>
+<aside class="notice">We use conventional HTTP response codes to indicate success or failure of an API request. Codes in the 2xx range indicate success, codes in the 4xx range indicate an error that resulted from the provided information (e.g. a required parameter was missing) and codes in the 5xx range indicate an error with our servers.</aside>
 
-The Kittn API uses the following error codes:
+The Import.io API uses the following error codes:
 
-
-Error Code | Meaning
+Response Code | Meaning
 ---------- | -------
 400 | Bad Request -- Your request sucks
 401 | Unauthorized -- Your API key is wrong
@@ -17,4 +16,4 @@ Error Code | Meaning
 418 | I'm a teapot
 429 | Too Many Requests -- You're requesting too many kittens! Slow down!
 500 | Internal Server Error -- We had a problem with our server. Try again later.
-503 | Service Unavailable -- We're temporarially offline for maintanance. Please try again later.
+503 | Service Unavailable -- We're temporarily offline for maintanance. Please try again later.

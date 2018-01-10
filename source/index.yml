@@ -9,7 +9,12 @@ toc_footers:
 
 includes:
   - main
-  - _errors
+  - _intro
+  - _overview
+  - _concepts
+  - _auth
+  - _responses
+  - _kittens
 
 search: true
 
